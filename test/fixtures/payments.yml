@@ -1,0 +1,9 @@
+one:
+  service_id: 1
+  line_item_id: 1
+  amount: 0
+
+two:
+  service_id: 2
+  line_item_id: 2
+  amount: 0
