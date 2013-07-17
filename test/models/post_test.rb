@@ -4,7 +4,7 @@ class PostTest < ActiveSupport::TestCase
   test "generating permalink" do
     post = posts(:one)
     post.generate_permalink
-    assert post.permalink, "one-title"
+    assert "one-title", post.permalink
   end
 
   test "generating unique permalinks" do
